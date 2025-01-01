@@ -12,15 +12,15 @@ function App() {
   
   return (
 
-    <div className=''>
-      <div>
+    <div className='flex'>
+      <div  >
         <SideBar />
       </div>
       <div>
         <NavBar />  
 
-      </div>
-      <div>
+      </div >
+      <div className=''>
         <JobCard neededCnt={10} empcnt={5} />
       </div>
       
